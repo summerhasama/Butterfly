@@ -1,24 +1,131 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Butterfly" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Butterflies" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fYU-Co-e5i">
+                                <rect key="frame" x="41" y="103" width="181" height="47"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="40"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[quote of the day]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Em-ht-Sfg">
+                                <rect key="frame" x="41" y="182" width="246" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="33" id="Vb4-PQ-kSr"/>
+                                    <constraint firstAttribute="width" constant="246" id="vEK-aw-ZXh"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Butterfly1" translatesAutoresizingMaskIntoConstraints="NO" id="n5J-dS-5f4">
+                                <rect key="frame" x="42" y="281" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="Mu2-en-7CO"/>
+                                    <constraint firstAttribute="width" constant="120" id="iS5-n9-Acg"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image=" Butterfly2" translatesAutoresizingMaskIntoConstraints="NO" id="Sqi-jP-ddp">
+                                <rect key="frame" x="251" y="281" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="5N4-fC-ixe"/>
+                                    <constraint firstAttribute="width" constant="120" id="jZu-Zn-LA7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Butterfly3" translatesAutoresizingMaskIntoConstraints="NO" id="HdJ-3Y-rkY">
+                                <rect key="frame" x="147" y="495" width="120" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="9cn-N6-1g8"/>
+                                    <constraint firstAttribute="width" constant="120" id="aHK-Wc-IaB"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Danaus Plexippus" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="i9R-nu-u7Q">
+                                <rect key="frame" x="51" y="413" width="103" height="41"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="103" id="gFn-9N-Wau"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Morpho Pelides" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qGn-Is-TkQ">
+                                <rect key="frame" x="251" y="413" width="120" height="20.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="120" id="h1E-G9-Ixa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Delias Eucharia" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ipB-H9-ZjB">
+                                <rect key="frame" x="68.5" y="627" width="277" height="38"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="38" id="oGz-ut-7ey"/>
+                                    <constraint firstAttribute="width" constant="277" id="vGK-qK-rPj"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="qGn-Is-TkQ" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="369" id="5lZ-eW-ZRn"/>
+                            <constraint firstItem="Sqi-jP-ddp" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="237" id="6Tu-Aw-F6S"/>
+                            <constraint firstItem="n5J-dS-5f4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="8i4-Xn-uEs"/>
+                            <constraint firstItem="ipB-H9-ZjB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="AtU-1u-ukN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qGn-Is-TkQ" secondAttribute="trailing" constant="43" id="GB8-wt-BV1"/>
+                            <constraint firstItem="n5J-dS-5f4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="42" id="Icu-b2-H13"/>
+                            <constraint firstItem="HdJ-3Y-rkY" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="451" id="JxL-qS-Z92"/>
+                            <constraint firstItem="HdJ-3Y-rkY" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="KTC-1G-f5P"/>
+                            <constraint firstItem="fYU-Co-e5i" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="OkR-NT-hcp"/>
+                            <constraint firstItem="i9R-nu-u7Q" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="369" id="h3g-Ka-DwA"/>
+                            <constraint firstItem="n5J-dS-5f4" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="237" id="ic2-oe-GEl"/>
+                            <constraint firstItem="ipB-H9-ZjB" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="583" id="j9q-Kf-4kL"/>
+                            <constraint firstItem="fYU-Co-e5i" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="59" id="k2T-lc-pLD"/>
+                            <constraint firstItem="Sqi-jP-ddp" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" constant="-43" id="rEp-Wm-E06"/>
+                            <constraint firstItem="4Em-ht-Sfg" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="41" id="rzB-kP-aig"/>
+                            <constraint firstItem="i9R-nu-u7Q" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="51" id="s9q-ue-Xrq"/>
+                            <constraint firstItem="4Em-ht-Sfg" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="138" id="wD2-BG-Fv1"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="DE_label" destination="ipB-H9-ZjB" id="4Gt-U9-rag"/>
+                        <outlet property="DP_label" destination="i9R-nu-u7Q" id="pk5-nr-hHM"/>
+                        <outlet property="MP_label" destination="qGn-Is-TkQ" id="ui4-G8-0MW"/>
+                        <outlet property="butterflyLabel" destination="fYU-Co-e5i" id="kNY-W2-qG4"/>
+                        <outlet property="image1" destination="n5J-dS-5f4" id="EA6-hX-pSP"/>
+                        <outlet property="image2" destination="Sqi-jP-ddp" id="baQ-SR-Z7G"/>
+                        <outlet property="image3" destination="HdJ-3Y-rkY" id="qdn-EI-quz"/>
+                        <outlet property="quoteLabel" destination="4Em-ht-Sfg" id="fYW-a0-piZ"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="-197.10144927536234" y="77.678571428571431"/>
         </scene>
     </scenes>
+    <resources>
+        <image name=" Butterfly2" width="3024" height="4032"/>
+        <image name="Butterfly1" width="7360" height="4912"/>
+        <image name="Butterfly3" width="5184" height="3456"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
