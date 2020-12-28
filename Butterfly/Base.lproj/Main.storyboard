@@ -22,11 +22,10 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="[quote of the day]" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Em-ht-Sfg">
-                                <rect key="frame" x="41" y="182" width="246" height="33"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="[quote of the day]" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4Em-ht-Sfg">
+                                <rect key="frame" x="41" y="182" width="305" height="33"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="33" id="Vb4-PQ-kSr"/>
-                                    <constraint firstAttribute="width" constant="246" id="vEK-aw-ZXh"/>
+                                    <constraint firstAttribute="width" constant="260" id="vEK-aw-ZXh"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="HelveticaNeue" family="Helvetica Neue" pointSize="18"/>
                                 <nil key="textColor"/>
